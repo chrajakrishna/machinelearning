@@ -34,7 +34,7 @@ def makeTerrainData(n_points=1000):
 
 #    training_data = {"fast":{"grade":grade_sig, "bumpiness":bumpy_sig}
 #            , "slow":{"grade":grade_bkg, "bumpiness":bumpy_bkg}}
-
+# Testing merge with Branch
 
     grade_sig = [X_test[ii][0] for ii in range(0, len(X_test)) if y_test[ii]==0]
     bumpy_sig = [X_test[ii][1] for ii in range(0, len(X_test)) if y_test[ii]==0]
